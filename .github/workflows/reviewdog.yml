@@ -37,7 +37,7 @@ jobs:
           egress-policy: audit
 
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
-      - uses: step-security/action-shfmt@0e357b59b59e1631b2203e951a9f90e5f758be5a # release
+      - uses: step-security/action-shfmt@efd9eed3c25dea0717f2adf3c92ac5d38b162fa6 # v1.0.5
 
   actionlint:
     name: runner / actionlint
