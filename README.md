@@ -1,3 +1,5 @@
+[![StepSecurity Maintained Action](https://raw.githubusercontent.com/step-security/maintained-actions-assets/main/assets/maintained-action-banner.png)](https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions)
+
 # action-suggester
 
 [![Test](https://github.com/step-security/action-suggester/workflows/Test/badge.svg)](https://github.com/step-security/action-suggester/actions?query=workflow%3ATest)
