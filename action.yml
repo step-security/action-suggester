@@ -96,7 +96,7 @@ runs:
       shell: bash
     - uses: step-security/reviewdog-action-setup@b1f87f03454fcd701e2e4d2052fd711139bd1119 #v1.5.0
       with:
-        reviewdog_version: v0.21.0
+        reviewdog_version: v0.21.2
     - run: |
         set -euo pipefail
         . "$GITHUB_ACTION_PATH/script.sh"
@@ -112,7 +112,7 @@ runs:
         INPUT_FAIL_ON_ERROR: ${{ inputs.fail_on_error }}
         INPUT_REVIEWDOG_FLAGS: ${{ inputs.reviewdog_flags }}
         INPUT_CLEANUP: ${{ inputs.cleanup }}
-      working-directory: ${{ inputs.path }}
+        INPUT_PATH: ${{ inputs.path }}
 
 branding:
   icon: "edit"
