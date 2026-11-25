@@ -1,0 +1,12 @@
+{
+  "$comment": "Managed automatically when syncing with upstream. Do not edit by hand.",
+  "schema_version": 1,
+  "onboarding_type": "copied",
+  "action_type": "composite",
+  "upstream": {
+    "repository": "reviewdog/action-suggester",
+    "synced_tag": "v1.27.1",
+    "synced_commit": "fd22a83b1ebc13fd8aee5d57b06793fce6f20fb9",
+    "archived": false
+  }
+}
