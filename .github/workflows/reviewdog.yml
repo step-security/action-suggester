@@ -74,8 +74,8 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@v7
-      - uses: reviewdog/action-alex@v1.20.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: reviewdog/action-alex@f39fd335ddb3b76d5595d5c452078903cf872e96 # v1.20.0
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
